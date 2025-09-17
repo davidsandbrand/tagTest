@@ -1,5 +1,6 @@
-data "tagTest" "this" {
-
-    map_tags_default = { originallyDeployedBy : "David J Sandbrand", deploymentProject : "Landing Zone" }
-
+locals {
+  map_tags_default = {
+    "originallyDeployedBy" = "David J Sandbrand"
+    "deploymentProject" = "Landing Zone"
+  }
 }
