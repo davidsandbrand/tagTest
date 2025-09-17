@@ -1,4 +1,4 @@
-output "tags" {
+output "map_tags_default" {
   value       = merge(local.map_tags_default, var.custom_tags)
   description = "tagTest standard tags"
 }
